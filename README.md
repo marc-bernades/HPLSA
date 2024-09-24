@@ -6,7 +6,7 @@ Additionally, the repository includes a description of the code, instructions an
 Therefore, the linear stability modal and non-modal analysis can be fully reproduced by the interested reader.
 Although the code is suitable for Poiseuille flows, it can be easily adapted to other wall-bounded cases, such as Couette flow, by adjusting the initial and boundary conditions.
 Furthermore, the operator is built for temporal eigenproblems (prescribing streamwise and spanwise wavenumbers and solving the eigenproblem for the angular frequency and growth rate of the perturbation), but it is prepared to be expanded to solve spatial problems also, which is typical in the case of external flows.
-This solver requires the previous installation of the high-pressure compressible flow solver (HPCFS) available at \url{https://github.com/marc-bernades/HPCFS}, which embeds some functionalities and thermodynamic models necessary for the complete usage of HPLSA.
+This solver requires the previous installation of the high-pressure compressible flow solver (HPCFS) available at https://github.com/marc-bernades/HPCFS, which embeds some functionalities and thermodynamic models necessary for the complete usage of HPLSA.
 
 Main files contained within the respository:
 

@@ -27,6 +27,6 @@ Main_Posprocess_TG: Compile the non-modal-analysis results
 - Perturbation profiles, optimum patterns, input/output responses, growth rate maps
 
 2. Functions
-- LST_functions: baseflow, chevysheb collocation, LST opertor build, LST eigenproblem, normalization, scalings, dimensionless numbers and transient growth
-- Plot_functions
-- Utilities
+- LST_functions: baseflow, LST opertor build, LST code with boundary conditions for Poiseuille flow and transient growth
+- Plot_functions: baseflow, energy budget, growth rates, optimal perturbation, spectrum, stability diagram and transient growth (called via Main_Postprocess scripts)
+- Utilities: bulks, numeric-based and thermodynamic-based Jacobians, central derivatives, normalizations, scalings, discretization
